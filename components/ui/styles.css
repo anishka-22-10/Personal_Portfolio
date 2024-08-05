@@ -1,0 +1,43 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+.custom-image {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  .square-card {
+    width: 500px; /* Adjust this size as needed */
+    height: 500px; /* Adjust this size as needed */
+  }
+
+  .company-logo {
+    height: 60px; /* Set the desired height for all logos */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure the image fits within the given dimensions */
+    display: block; /* Ensure images are treated as block elements */
+    margin: 0 auto; /* Center the images within their containers */
+  }
+  
+  .company-logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px; /* Adjust container height as needed */
+  }
+  
+  .company-info {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Adjust the gap between the logo and the text */
+    margin-top: 20px; /* Add margin-top for spacing */
+  }
+  
+  .company-name {
+    font-family: 'Roboto', sans-serif; /* You can use any font or import from Google Fonts */
+    font-size: 18px; /* Adjust font size */
+    font-weight: 500; /* Adjust font weight */
+    color: #ece7e7; /* Choose a color that matches your design */
+  }
